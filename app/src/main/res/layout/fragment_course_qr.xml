@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lyp.myruidao.ui.fragment.CourseQRFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="扫描下方二维码分享本课程视频！"
+                android:gravity="center"
+                android:padding="16dp"
+                android:textColor="#353535"/>
+
+            <ImageView
+                android:id="@+id/course_qr_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                tools:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

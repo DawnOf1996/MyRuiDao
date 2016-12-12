@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lyp.myruidao.ui.fragment.PositionCoursesFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_position"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_position">
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
